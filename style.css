@@ -1,0 +1,269 @@
+/*
+Theme Name: Coatsi
+Text Domain: Coatsi
+Version: 1.0
+Description: Fancy Shop Theme
+Tags: responsive, shop, fancy shop
+Author: Kevin Burrafato
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.navbar.navbar-expand-lg {
+  height: 110px;
+  box-shadow: none;
+}
+
+.nav-item a {
+  text-transform: uppercase;
+  color: #282f35;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #64c29e;
+  text-decoration: none;
+}
+
+.hero {
+  background: url(../awesome-theme/assets/image/hero-bg.jpg ) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #f4f5fc;
+  height: 685px;
+}
+
+header {
+  background-color: #f4f5fc;
+}
+
+.intro {
+  padding: 115px;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.chain {
+  text-align: center;
+  text-transform: uppercase;
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h2.frame {
+  text-align: center;
+  text-transform: uppercase;
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h2.mech {
+  text-align: center;
+  text-transform: uppercase;
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+p.frame {
+  margin-bottom: 200px;
+}
+
+h2.front-frame {
+  text-align: center;
+  text-transform: uppercase;
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 65px;
+  margin-top: 70px;
+}
+
+h2.twitter-post-username {
+  color: #353738;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+h2.twitter-post-username span {
+  color: #848789;
+  font-weight: 300;
+}
+
+h2.logo-header {
+  text-align: center;
+  color: #848789;
+  letter-spacing: 1px;
+  font-size: 24px;
+  background: url(../awesome-theme/assets/image/logo.PNG) no-repeat top center;
+  padding-top: 120px;
+  margin: 70px 0 40px 0;
+  text-transform: capitalize;
+}
+
+a {
+  color: #282f35;
+}
+
+a:hover {
+  color: #64c29e;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #848789;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 1.8em;
+  margin-top: 25px;
+}
+
+p.text-intro {
+  font-size: 18px;
+}
+
+.section-1 {
+  background: url(../awesome-theme/assets/image/left-box-1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.section-2 {
+  background: url(../awesome-theme/assets/image/left-box-2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.section-text {
+  position: relative;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.thin-sep {
+  height: 1px;
+  background-color: #d7d7d7;
+  width: 50px;
+  margin: 8% auto 0 auto;
+}
+
+.section-text p {
+  padding: 0 60px;
+  text-align: justify;
+}
+
+.small-featured-img {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.seat-red {
+  background: url(../awesome-theme/assets/image/seat-red.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer-container {
+  background-color: #f7f7f7;
+}
+
+.footer-row {
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-row p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #353738;
+}
+
+.footer-link a {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #353738;
+  margin-left: 30px;
+}
+
+.footer-link a:hover {
+  color: #64c29e;
+  text-decoration: none;
+}
+
+.fas.fa-envelope {
+  margin-right: 30px;
+}
+
+.fas.fa-phone-alt {
+  margin-right: 60px;
+}
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+
+  .navbar-brand {
+    margin-left: 50px;
+  }
+  
+  ul.navbar-nav {
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .nav-item a {
+    text-transform: uppercase;
+    color: #282f35;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  
+  .intro p {
+    margin-left: 300px;
+    padding-right: 300px;
+  }
+  
+  p.frame {
+    margin-bottom: 200px;
+  }
+}
